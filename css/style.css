@@ -41,6 +41,8 @@ button {
     margin: 0 auto;
     padding: 0px 10px;
 }
+
+
 /*FLEX*/
 .a-flex {
     display: flex;
@@ -48,16 +50,16 @@ button {
     align-items: center;
 }
 
-.flex-left {
-    display: flex;
+
+.flexheader{
+    display:flex;
+    flex-direction: row;
     justify-content: flex-start;
+    align-items: flex-start;
 }
 
 
-.flex-right {
-    display: flex;
-    justify-content: flex-end;
-}
+
 
 /*NAV*/
 nav {
@@ -77,15 +79,18 @@ nav {
 
 header {
     background-color: var(--color-hero);
-    
+    position: relative;
 }
 
 .jumbo {
-    width: 50%;
-    text-align: right;
-   
+    width: 70%;
+    margin-top: 20px;
+    
 }
 
+.descrizione {
+   
+}
 
 
 /*MAIN*/
