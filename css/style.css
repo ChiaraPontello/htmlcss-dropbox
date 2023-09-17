@@ -35,6 +35,12 @@ button {
     padding: 3px 10px;
     margin: 10px;
 }
+
+.container{
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 0px 10px;
+}
 /*FLEX*/
 .a-flex {
     display: flex;
@@ -42,24 +48,43 @@ button {
     align-items: center;
 }
 
+.flex-left {
+    display: flex;
+    justify-content: flex-start;
+}
+
+
+.flex-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
 /*NAV*/
 nav {
     height: 50px;
-    
+    background-color: var(--color-white);
+    width: 100%;
+   
 }
 
 .imglogo {
     padding: 0px 10px;
 }
 
-.container{
-    max-width: 1200px;
-    margin: 0 auto;
-    padding: 0px 10px;
-}
+
 
 /*HEADER*/
 
+header {
+    background-color: var(--color-hero);
+    
+}
+
+.jumbo {
+    width: 50%;
+    text-align: right;
+   
+}
 
 
 
