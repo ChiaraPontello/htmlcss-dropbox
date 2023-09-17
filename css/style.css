@@ -7,3 +7,34 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+:root {
+    --color-button: rgb(0, 97, 255);
+    --color-hero: rgb(180, 208, 230);
+    --color-box1esterno: rgb(209, 234, 205);
+    --color-box1interno: rgb(162, 211, 155);
+    --color-asu: rgb(98, 8, 44);
+    --color-florida: rgb(1, 147, 206);
+    --color-topps: rgb(255, 28, 29);
+    --color-wbr: rgb(213, 0, 30);
+    --color-lp: rgb(13, 36, 129);
+    --color-ccoutdoor: rgb(255, 217, 48);
+    --color-black: rgb(0, 0, 0);
+    --color-white: #ffffff;
+}
+
+/*FLEX*/
+
+
+
+/*HEADER*/
+
+
+
+
+/*MAIN*/
+
+
+
+
+/*FOOTER*/
