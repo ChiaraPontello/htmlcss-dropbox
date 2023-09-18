@@ -236,9 +236,21 @@ li {
 }
 
 
-
-
-
-
-
 /*FOOTER*/
+
+footer {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    padding: 30px;
+}
+
+footer a {
+    text-decoration: none;
+    color: var(--color-white);
+}
+
+select {
+    background-color: var(--color-black);
+    color: var(--color-white);
+    margin-top: 20px;
+}
