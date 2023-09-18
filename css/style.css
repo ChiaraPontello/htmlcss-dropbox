@@ -226,4 +226,19 @@ li {
     height: 50%;
     background-color: blue;
 }
+
+/*business*/
+
+
+.business {
+    background-color: var(--color-hero);
+    padding: 100px;
+}
+
+
+
+
+
+
+
 /*FOOTER*/
