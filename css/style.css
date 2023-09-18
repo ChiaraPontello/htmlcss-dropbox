@@ -171,10 +171,26 @@ li {
     margin:10px 0;
 }
 
+/*foto+descrizione*/
+.partner {
+    width: 100%;
+}
 
+.partner-left {
+    width: 65%;
+}
 
+.partner-right {
+    width: 35%;
+   text-align: left;
+   padding-top: 100px;
+   margin-left: 20px;
+}
 
-
+.btn {
+    background-color: var(--color-white);
+    color: var(--color-black);
+}
 
 
 
