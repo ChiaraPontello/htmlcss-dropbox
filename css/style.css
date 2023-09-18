@@ -140,9 +140,22 @@ h1 {
     position: absolute;
 }
 
+/*CARD*/
 
+.card {
+    width: 30%;
+    border: 1px solid black;
+}
 
+.card-top {
+    text-align: center;
+    padding: 10px ;
+    border-bottom: 1px solid black;
+}
 
+.card-body {
+    padding: 10px;
+}
 
 
 
