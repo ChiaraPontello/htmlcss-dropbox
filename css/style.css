@@ -63,6 +63,7 @@ button {
 }
 
 
+
 .justify-between {
     justify-content: space-between;
 }
@@ -192,6 +193,25 @@ li {
     color: var(--color-black);
 }
 
+/*immagini*/
+
+
+.funcard {
+    width: calc(100% / 3);
+    
+}
+
+.imgfun {
+    width: 50%;
+}
+
+.funwrapper {
+ 
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+        align-content: flex-start;
+}
 
 
 
