@@ -23,7 +23,7 @@
     --color-white: #ffffff;
 }
 
-a {
+nav a {
     text-decoration: none;
     color: var(--color-black);
     padding: 5px;
@@ -89,6 +89,7 @@ header {
     background-color: var(--color-white);
     z-index: 1000;
     padding: 10px;
+    border-bottom: 2px solid black;
 }
 
 nav {
@@ -157,7 +158,16 @@ h1 {
     padding: 10px;
 }
 
+.list-icon {
+    text-indent: -0.6em;
+    margin: 15px;
+}
 
+.checked {
+    color: var(--color-button);
+}
 
-
+li {
+    margin:10px 0;
+}
 /*FOOTER*/
