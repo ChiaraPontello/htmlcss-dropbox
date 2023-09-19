@@ -23,10 +23,11 @@
     --color-white: #ffffff;
 }
 
+
 nav a {
     text-decoration: none;
     color: var(--color-black);
-    padding: 5px;
+    
 }
 
 button {
@@ -78,7 +79,9 @@ button {
     align-content: flex-start;
 }
 
-
+.baseline {
+    align-items: baseline;
+}
 
 
 /*NAV*//*HEADER*/
@@ -108,16 +111,23 @@ ul {
 
 .imglogo {
     padding: 0px 10px;
+    
 }
 
-
+.flexnav {
+    display:flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+}
 
 
 
 /*MAIN*/
 
 h1 {
-    font-size: 4.5em;
+    font-size: 5em;
     padding: 15px 0px;
 }
 
@@ -219,29 +229,72 @@ li {
     height: calc(100vw / 3);
     display: flex;
     flex-wrap: wrap;
-}
+}    
+    
+
+
+
 
 .brand {
     width: 50%;
     height: 50%;
+    position: relative;
+}    
+
+
+.brand img {
+    width: 50%;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    filter:invert(100%);
+}    
     
-}
+   
+
+
 
 .box1 {
     background-color: var(--color-box1interno);
-}
-
-.imgbox {
-    width: 70%;
-    margin-top: 70px;
+   
+    border: 10px solid var(--color-box1esterno);
 }
 
 
 
 
+.box2 {
+    background-color: var(--color-asu);
+}
 
 
 
+.box3 {
+    background-color: var(--color-florida);
+}
+
+
+
+.box4 {
+    background-color: var(--color-topps);
+}
+
+.box6 {
+    background-color: var(--color-wbr);
+}
+
+.box7 {
+    background-color: var(--color-hero);
+}
+
+.box8 {
+    background-color: var(--color-lp);
+}
+
+.box9 {
+    background-color: var(--color-ccoutdoor);
+}
 
 /*business*/
 
