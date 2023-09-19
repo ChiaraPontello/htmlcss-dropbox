@@ -217,6 +217,7 @@ li {
 
 .funcard {
     width: calc(100% / 3);
+    padding-right: 10px;
     
 }
 
