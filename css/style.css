@@ -273,7 +273,9 @@ li {
     filter:invert(100%);
 }    
     
-   
+.brand:hover {
+    opacity: 0.5;
+}
 
 
 
